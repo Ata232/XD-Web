@@ -1,2 +1,0 @@
-# XD-Web
-XD Website
