@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: linear-gradient(to right, #d16ba5, #b884d2, #8b9ef0, #4fb5fa, #00c8f2, #00d1ec, #21dae4, #45e2da, #4ce8e0, #52eee5, #59f5eb, #5ffbf1);
+}
+
+#circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 200px;
+    background-image: linear-gradient(to left, #d16ba5, #b884d2, #8b9ef0, #4fb5fa, #00c8f2, #00d1ec, #21dae4, #45e2da, #4ce8e0, #52eee5, #59f5eb, #5ffbf1);
+    border-radius: 100px;
+    font-size: 1.5rem;
+    color: #fff;
+    box-shadow: inset -10px -10px 15px rgba(255, 255, 255, 0.5),
+           inset 10px 10px 15px rgba(70, 70, 70, 0.12),
+           inset 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.5s;
+    outline: none;
+
+}
+
+.XD {
+    transform: scale(3.75);
+}
+
+@media all and (max-width: 1300px) and (max-height: 2800px) {
+    .XD {
+        transform: scale(1.85);
+
+    }
+}
+
+
+
+
+
